@@ -1,0 +1,85 @@
+nav {
+  background-color: #fe7e00;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  color: white;
+}
+/*makes the nav in the body take up the whole top! notice if you code it out*/
+body {
+  display: block;
+  margin: 0px;
+}
+/*styles the img in in the nav (logo )*/
+nav img {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+/*styles the ul to float right*/
+nav > div > ul {
+  float: right;
+}
+/*styles the li in the nav section*/
+nav > div > ul > li {
+  display: inline;
+  margin: 30px;
+  padding: 5px;
+}
+/*makes links in list white with no decoration*/
+li a {
+  text-decoration: none;
+  color: white;
+}
+section {
+  text-align: center;
+}
+section > div.search {
+  display: inline-block;
+
+}
+/*styles main img in section*/
+.block-img {
+  display: inline-block;
+  margin-top: 185px;
+}
+.fa-search {
+  margin: -20px;
+}
+/*styles search bar*/
+.search {
+  float: right;
+  top: 800px;
+  height: 45px;
+  position: absolute;
+  left: 80%;
+  top: 60px;
+}
+/*styles box with text*/
+.box-text {
+  color: #fe7e00;
+  display: inline-block;
+  font-size: 38px;
+}
+/*styles button*/
+button {
+  color: white;
+  float: inherit;
+  cursor: pointer;
+  background-color: #fe7e00;
+  border: 0;
+  padding: 10px 30px;
+}
+/*styles teal button*/
+.teal {
+  background-color: #97C6C0;
+}
+/*styles bottom footer*/
+footer {
+  background-color: #97C6C0;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+}
