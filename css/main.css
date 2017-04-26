@@ -1,9 +1,15 @@
+
 nav {
   background-color: #fe7e00;
   width: 100%;
   height: 60px;
   position: fixed;
   color: white;
+}
+@media (max-width:878px) {
+  .logo {
+    text-align: center;
+  }
 }
 /*makes the nav in the body take up the whole top! notice if you code it out*/
 body {
@@ -32,6 +38,14 @@ li a {
   text-decoration: none;
   color: white;
 }
+/*@media (max-width:872px) {
+  li a {
+    margin-right: 20px;
+    font-size: 10px;
+  }
+}*/
+
+
 section {
   text-align: center;
 }
@@ -43,6 +57,23 @@ section > div.search {
 .block-img {
   display: inline-block;
   margin-top: 185px;
+}
+
+.mo {
+  max-width: 100%;
+}
+
+@media (max-width:913px) {
+  .mo {
+    /*max-width: 100%;*/
+    height: 300px;
+  }
+}
+@media (max-width:757px) {
+  .mo {
+    height: 170px;
+    width:120px;
+  }
 }
 .fa-search {
   margin: -20px;
@@ -56,11 +87,31 @@ section > div.search {
   left: 80%;
   top: 60px;
 }
+@media (max-width:724px){
+  .search {
+    margin-left: -50px;
+  }
+}
+@media (max-width:472px) {
+  .search {
+    margin-left: -80px;
+  }
+}
 /*styles box with text*/
 .box-text {
   color: #fe7e00;
   display: inline-block;
   font-size: 38px;
+}
+@media (max-width:913px){
+  .box-text {
+    font-size: 30px;
+  }
+}
+@media (max-width:758px) {
+  .box-text {
+    font-size: 20px;
+  }
 }
 /*styles button*/
 button {
@@ -70,6 +121,12 @@ button {
   background-color: #fe7e00;
   border: 0;
   padding: 10px 30px;
+}
+@media (max-width:913px) {
+  .button {
+    /*float: right;*/
+    padding-right: 90px;
+  }
 }
 /*styles teal button*/
 .teal {
